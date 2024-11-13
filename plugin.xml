@@ -7,7 +7,6 @@ version="3.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="
             <clobbers target="cordova.plugins.photoLibrary" />
         </js-module>
         <js-module src="www/async/dist/async.min.js" name="async" />
-        <js-module src="www/async/dist/async.min.map" name="async_map" />
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="PhotoLibrary" >
                 <param name="android-package" value="com.terikon.cordova.photolibrary.PhotoLibrary"/>
@@ -27,8 +26,7 @@ version="3.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="
         <js-module src="www/PhotoLibrary.ios.js" name="PhotoLibrary">
             <clobbers target="cordova.plugins.photoLibrary" />
         </js-module>
-        <!-- <js-module src="www/async/dist/async.min.js" name="async" />
-        <js-module src="www/async/dist/async.min.map" name="async_map" /> -->
+        <!-- <js-module src="www/async/dist/async.min.js" name="async" /> -->
         <config-file target="config.xml" parent="/*">
             <feature name="PhotoLibrary">
                 <param name="ios-package" value="PhotoLibrary" />
@@ -50,7 +48,6 @@ version="3.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="
             <clobbers target="cordova.plugins.photoLibrary" />
         </js-module>
         <js-module src="www/async/dist/async.min.js" name="async" />
-        <js-module src="www/async/dist/async.min.map" name="async_map" />
         <config-file target="config.xml" parent="/*">
               <feature name="PhotoLibrary">
                   <param name="browser-package" value="PhotoLibrary" />
